@@ -1,0 +1,59 @@
+html {
+    font-size: 2vw; /* Base font size responsive to viewport width */
+}
+.login {
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(186, 155, 247), rgb(150, 125, 248));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+            
+    .card {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            width: 50%; 
+            height: 75vh; 
+            margin: 2vh;
+         
+        .left{
+            flex: 1; 
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            gap: 15px;        
+            
+            background:linear-gradient(
+                rgba(15, 2, 42, 0.397), 
+                rgba(3, 2, 8, 0.728)
+              ), url("https://th.bing.com/th/id/OIG1.SVpZVylKSXk8M34DDg.E?pid=ImgGn");
+            background-size:cover;
+            
+            h1{
+                color: white;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 2vw;
+            }
+            p{
+                color: white;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1vw;
+                font-weight: bold;
+            }
+
+        }
+        .right{
+            flex: 1; /* Equally divide the space */
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 20px;
+            border: solid 2px rgb(227, 227, 228) ;
+            background-color: rgb(227, 227, 228);
+        }
+
+    }
+
+}
