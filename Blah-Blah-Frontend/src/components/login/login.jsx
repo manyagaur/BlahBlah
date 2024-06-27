@@ -20,7 +20,11 @@ function Login(){
                 Join us today, and 
                 let's turn your chatter into a 
                 symphony of connections!
+                
                 </p>
+                
+                <p>Don't have an account?</p>
+                <button type="submit">Register</button>
             </div>
             <div className="right">
                 <h3>Login</h3>
@@ -33,7 +37,8 @@ function Login(){
                     <label>Password </label>
                     <br></br>
                     <input type="password">
-                    </input>
+                    </input><br></br><br></br>
+                    <button type="submit">Login</button>
                     </form>
             </div>
         </div> 
