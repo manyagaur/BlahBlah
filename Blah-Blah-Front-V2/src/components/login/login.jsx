@@ -1,19 +1,17 @@
 import React, { useState } from "react";
-import { RiFacebookBoxFill } from "react-icons/ri";
-import { FaGoogle } from "react-icons/fa";
-// useNavigate and axios are not used in this component
-// import { useNavigate } from "react-router-dom";
+import img from "../../assets/8976.jpg";
+
 
 function Login() {
-  // State for password (optional, if you want to control input state)
-  const [password, setPassword] = useState(""); 
+
 
   return (
-    <div className="bg-blue-100 ">
+    <div className="bg-blue-100 " style={{ backgroundImage: `url(${img})`, backgroundSize: 'cover' }}>
       <div className="grid grid-cols-12 min-h-screen">
-        <div className="col-span-12 sm:col-span-4 lg:col-span-6  bg-blue-400 rounded-lg mt-[7vh] ml-72 mb-[7vh] max-h-[88vh] relative flex sm:flex-col">
-        <h1 className="text-4xl font-medium ml-2 mt-20 mb-5 mr-2 ">Welcome to BlahBlah</h1>
-                <p className="text-md text-pretty ml-2 mr-2 mb-7 font-semibold">
+        <div className="col-span-12 sm:col-span-4 lg:col-span-6  bg-blue-400 rounded-lg mt-[7vh] ml-72 mb-[7vh] max-h-[88vh] relative flex sm:flex-col" 
+        style={{ backgroundImage: `linear-gradient(90deg, rgba(0,100,290,0.6), rgba(130,140,160,0.6)), url(${img})`, backgroundSize: 'cover' }}>
+        <h1 className="text-4xl font-medium ml-3 mt-20 mb-5 mr-2 text-white">Welcome to BlahBlah</h1>
+                <p className="text-md text-pretty ml-3 mr-3 mb-7 font-rubikRegular text-white">
                 BlahBlah is 
                 the ultimate social networking hub 
                 that turns every conversation into 
@@ -27,7 +25,7 @@ function Login() {
                 
                 </p>
                 
-                <p className="mb-2 ml-2  font-semibold">Don't have an account?</p>
+                <p className="mb-2 ml-2  font-semibold text-white">Don't have an account?</p>
                 <button
                 type="submit"
                 
@@ -61,30 +59,19 @@ function Login() {
               <input
                 type="password"
                 className="rounded-lg min-h-10 min-w-[90%] p-3 mb-8 border border-gray-400 hover:border-gray-600"
-                placeholder="6+ Characters"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)} // Optional: if you want to manage the password state
-                required
+                placeholder="Enter your password"
               />
               <br />
-              <div className="grid grid-cols-12">
-                <div className="col-span-1 py-2 px-3">
-                  <input type="checkbox" required />
-                </div>
-                <div className="col-span-11">
-                  <span>
-                    Logging in an account means you're okay with our{" "}
-                    <span className="text-[#5A47BC]">Terms of Service, Privacy Policy</span>, and our default{" "}
-                    <span className="text-[#5A47BC]">Notification Settings</span>
-                  </span>
-                </div>
-              </div>
 
               <br />
               <button
                 type="submit"
-                
-                className="text-lg shadow-xl rounded-xl bg-blue-400 hover:bg-blue-600 text-white px-12 py-2"
+                className="text-lg shadow-xl rounded-xl hover:bg-blue-600 text-white px-12 py-2"
+                style={{ 
+                  backgroundImage: `linear-gradient(45deg, rgba(0,100,140,0.6), rgba(130,140,160,0.6)), url(${img})`, 
+                  backgroundSize: 'cover',
+                  transition: 'background-image 0.3s ease-in-out'
+                }}
               >
                 Login Please
               </button>
