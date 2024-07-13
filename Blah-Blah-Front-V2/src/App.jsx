@@ -1,6 +1,5 @@
-
-
 import Login from './components/login/login'
+import Register from './components/register/register'
 
 
 function App() {
@@ -8,7 +7,8 @@ function App() {
 
   return (
     <>
-    <Login/>
+    
+    <Register/> 
     
     </>
   )
