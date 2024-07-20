@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import img from "../../assets/8976.jpg";
+import { useNavigate } from 'react-router-dom';
 
 
 function Login() {
 
+  const navigate = useNavigate();
 
   return (
     <>
@@ -14,7 +16,7 @@ function Login() {
                 <h1 className="text-[32px] font-bold text-white ml-5 mt-2">Welcome to Blah Blah</h1>
                 <p className="mx-5 mt-6 mb-4 font-semibold font-r text-[16px] text-white">BlahBlah is the ultimate social networking hub that turns every conversation into a vibrant experience. Whether you're sharing your latest triumphs, diving into deep discussions, or simply catching up on the buzz, Join us today, and let's turn your chatter into a symphony of connections!</p>
                 <span className="text-[14px] text-white font-semibold ml-5">Don't have an account?</span><br></br>
-                <button type="submit" className="mt-2 p-2 text-white border rounded-md ml-5 border-white w-[100px] hover:w-[102px] font-semibold">Register</button>
+                <button type="button" className="mt-2 p-2 text-white border rounded-md ml-5 border-white w-[100px] hover:w-[102px] font-semibold" onClick={() => navigate('/register')}>Register</button>
               </div>
             </div>
             <div className="col-span-1 bg-white w-72 h-[540px]">
