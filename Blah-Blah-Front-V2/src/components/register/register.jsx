@@ -3,7 +3,7 @@ function Register(){
         <>
             <div className="flex justify-center align-middle ">
                 <div className="relative">
-                    <div className="mt-28 bg-white h-[500px] w-[400px] border rounded-lg ">
+                    <div className="mt-28 bg-white h-[500px] w-[400px] border rounded-lg mx-4 ">
                         <h1 className="absolute left-1/2 transform -translate-x-1/2 top-[95px] text-3xl font-rubikRegular mt-6 text-blue-600">Sign Up</h1>
                         <h1 className="absolute left-[75px] text-center font-rubikRegular font-semibold mt-[46px] text-blue-600">
                             We'd love to have you at BlahBlah!

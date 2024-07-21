@@ -28,7 +28,7 @@ function Login() {
                 backgroundImage: `linear-gradient(45deg, rgba(0,100,140,0.6), rgba(130,140,160,0.6)), url(${img})`, 
                 backgroundSize: 'cover',
                 transition: 'background-image 0.3s ease-in-out',
-              }}
+              }} onClick={() => navigate('/home')}
               >Login</button>
             </div>
           </div>
