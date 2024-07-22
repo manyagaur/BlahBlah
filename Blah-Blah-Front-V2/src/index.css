@@ -21,3 +21,10 @@
          url(../src/assets/fonts/Rubik-Regular.ttf) format("truetype");
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 1900px 1200px;
+  }
+  
