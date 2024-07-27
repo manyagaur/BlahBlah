@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import img from '../../assets/8976.jpg'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import logo from '../../assets/logo.png';
@@ -15,7 +16,12 @@ function Header() {
 
   return (
     <>
-      <div className="grid grid-cols-12 h-[75px] bg-white">
+      <div className="grid grid-cols-12 h-[75px] bg-cover" 
+        style={{
+          backgroundImage: `linear-gradient(to right, rgba(700, 1090, 514, 0.2), rgba(0, 0, 0, 0.1)), url(${img})`,
+          backgroundSize: 'cover',
+        }}
+      >
         <div className="col-span-2 flex items-center">
           <img src={logo} alt="Logo" className="h-28 w-[180px] mx-3" />
         </div>
@@ -41,14 +47,17 @@ function Header() {
             </a>
           </div>
           <div className="col-span-8 sm:col-span-2 flex flex-grow">
-            <a href="#" className="mx-4" aria-label="Profile">
+            <a href="#" className="relative mx-4 " aria-label="Profile">
               <PersonIcon />
+              <span className="absolute top-0 left-4 text-white text-[12px] bg-red-600 rounded-full h-4 w-4 flex items-center justify-center">2</span>
             </a>
-            <a href="#" className="mx-4" aria-label="Messages">
+            <a href="#" className="relative mx-4" aria-label="Messages">
               <MessageIcon />
+              <span className="absolute top-0 left-4 text-white text-[12px] bg-red-600 rounded-full h-4 w-4 flex items-center justify-center">7</span>
             </a>
-            <a href="#" className="mx-4" aria-label="Notifications">
+            <a href="#" className="relative mx-4" aria-label="Notifications">
               <NotificationsIcon />
+              <span className="absolute top-0 left-4 text-white text-[12px] bg-red-600 rounded-full h-4 w-4 flex items-center justify-center">4</span>
             </a>
           </div>
           <div className="sm:hidden col-span-2">
