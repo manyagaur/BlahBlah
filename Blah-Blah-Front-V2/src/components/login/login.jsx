@@ -23,7 +23,8 @@ function Login() {
               <h1 className="text-[38px] text-blue-500 ml-4 mt-2 font-bold">Login</h1>
               <input className="rounded-md mx-4 mt-[70px] p-2 w-[250px] border border-gray-400" placeholder="Enter your email"></input>
               <input className="rounded-md mx-4 mt-[70px] p-2 w-[250px] border border-gray-400" placeholder="Enter your password"></input>
-              <button type="submit" className="hover:w-[102px] mt-12 p-2 font-semibold text-white bg-blue-600 border rounded-md ml-5 border-white w-[100px] hover:bg-blue-700"
+              <button type="submit" className="hover:w-[102px] mt-12 p-2 font-semibold text-white bg-blue-600 border rounded-md ml-5 border-white w-[100px] hover:bg-blue-700" 
+              onClick={() => navigate('/home')}
               style={{ 
                 backgroundImage: `linear-gradient(45deg, rgba(0,100,140,0.6), rgba(130,140,160,0.6)), url(${img})`, 
                 backgroundSize: 'cover',

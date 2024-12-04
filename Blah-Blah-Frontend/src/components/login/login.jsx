@@ -27,17 +27,17 @@ function Login(){
                 <button type="submit">Register</button>
             </div>
             <div className="right">
-                <h3>Login</h3>
+                <h2>Login</h2><br></br>
                 <form>
-                    <label>Username </label>
+                    
                     <br></br>
-                    <input type="text">
+                    <input type="text" placeholder='Username'>
                     </input>
                     <br></br>
-                    <label>Password </label>
-                    <br></br>
-                    <input type="password">
-                    </input><br></br><br></br>
+                    
+                    <br></br><br></br>
+                    <input type="password" placeholder='Password'>
+                    </input><br></br><br></br><br></br><br></br><br></br>
                     <button type="submit">Login</button>
                     </form>
             </div>
@@ -48,4 +48,4 @@ function Login(){
 
 }
 
-export default Login;
+export default Login; 
