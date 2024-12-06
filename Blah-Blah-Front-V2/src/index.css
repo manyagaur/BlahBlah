@@ -21,3 +21,8 @@
          url(../src/assets/fonts/Rubik-Regular.ttf) format("truetype");
 }
 
+@mixin mobile{
+    @media (max-width:480px) {
+        @content;
+    }
+}
