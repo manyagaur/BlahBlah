@@ -2,7 +2,7 @@ import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { DarkModeOutlined, EmailOutlined, GridViewOutlined, NotificationsOutlined, PersonOutlineOutlined } from '@mui/icons-material';
 import user from '../../assets/user.jpg'
-
+import dp from '../../assets/dp.jpg'
 
 
 
@@ -25,8 +25,8 @@ function Navbar(){
                 <EmailOutlined/>
                 <NotificationsOutlined/>
                 <div className='user flex items-center gap-[10px] text-500'>
-                    <img className='w-[30px] h-[30px] rounded-xl object-cover' src={user} alt = 'User image'></img>
-                    <span>Manya Gaur</span>
+                    <img className='w-[30px] h-[30px] rounded-3xl object-cover' src={dp} alt = 'User image'></img>
+                    <span>Luna Lovegood</span>
                 </div>
             </div>
         </div>

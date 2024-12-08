@@ -14,7 +14,7 @@ function Home(){
         <hr className="border border-blue-300"></hr>
         <div className="h-screen bg-white grid grid-cols-12">
             <div className="hidden sm:block col-span-2"><Leftbar/></div>
-            <div className="col-span-7 p-[14px] bg-gray-100">Home</div>
+            <div className="col-span-7 p-[14px] bg-gray-200">Home</div>
             <div className="col-span-3 p-[14px]"><Rightbar/></div>
         </div>
         </>

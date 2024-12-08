@@ -13,6 +13,7 @@ import Tutorials from '../../assets/11.png';
 import Courses from '../../assets/12.png';
 import Fund from '../../assets/13.png';
 import '../leftbar/leftbar.css'
+import dp from '../../assets/dp.jpg'
 
 function Leftbar(){
     return(
@@ -22,11 +23,11 @@ function Leftbar(){
                 <div className="menu flex flex-col gap-[20px]">
                     <div className="user flex items-center gap-[12px]">
                         <img 
-                        className='w-[30px] h-[30px] rounded-xl object-cover' 
-                        src={userImg} 
+                        className='w-[30px] h-[30px] rounded-3xl object-cover' 
+                        src={dp} 
                         alt="User image">
                         </img>
-                        <span className='text-[14px]'>Manya Gaur</span>
+                        <span className='text-[14px]'>Luna Lovegood</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img 
