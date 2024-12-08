@@ -18,7 +18,7 @@ import dp from '../../assets/dp.jpg'
 function Leftbar(){
     return(
         <>
-        <div className="leftbar p-[6px]"> 
+        <div className="leftbar h-screen bg-white p-[6px]"> 
             <div className="container p-[8px]">
                 <div className="menu flex flex-col gap-[20px]">
                     <div className="user flex items-center gap-[12px]">
