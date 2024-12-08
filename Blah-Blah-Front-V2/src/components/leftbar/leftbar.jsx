@@ -12,12 +12,13 @@ import Messages from '../../assets/10.png';
 import Tutorials from '../../assets/11.png';
 import Courses from '../../assets/12.png';
 import Fund from '../../assets/13.png';
+import '../leftbar/leftbar.css'
 
 function Leftbar(){
     return(
         <>
-        <div className="leftbar p-[12px]"> 
-            <div className="container p-[20px]">
+        <div className="leftbar p-[6px]"> 
+            <div className="container p-[8px]">
                 <div className="menu flex flex-col gap-[20px]">
                     <div className="user flex items-center gap-[12px]">
                         <img 
@@ -25,119 +26,98 @@ function Leftbar(){
                         src={userImg} 
                         alt="User image">
                         </img>
-                        <span>Manya Gaur</span>
+                        <span className='text-[14px]'>Manya Gaur</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover'
                         src={Friends} alt = ''></img>
-                        <span>Friends</span>
+                        <span className='text-[14px]'>Friends</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover'
                         src={Groups} alt = ''></img>
-                        <span>Groups</span>
+                        <span className='text-[14px]'>Groups</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover'
                         src={Market} alt = ''></img>
-                        <span>Marketplace</span>
+                        <span className='text-[14px]'>Marketplace</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img
                         className='w-[30px] h-[30px] rounded-xl object-cover'
                         src={Watch} alt = ''></img>
-                        <span>Watch</span>
+                        <span className='text-[14px]'>Watch</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover'
                         src={Memories} alt = ''></img>
-                        <span>Memories</span>
+                        <span className='text-[14px]'>Memories</span>
                     </div>
                 </div>
+                
+                <hr className='border border-blue-200 my-[12px]'/>
                 <div className="menu flex flex-col gap-[20px]">
-                    <span>Your shortcuts</span>
+                    <span className='text-[12px]'>Your shortcuts</span>
                     <div className="user flex items-center gap-[12px]">
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover' 
-                        src={userImg} 
+                        src={Events} 
                         alt="User image">
                         </img>
-                        <span>Manya Gaur</span>
+                        <span className='text-[14px]'>Events</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover'
-                        src={Friends} alt = ''></img>
-                        <span>Friends</span>
+                        src={Gaming} alt = ''></img>
+                        <span className='text-[14px]'>Gaming</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover'
-                        src={Groups} alt = ''></img>
-                        <span>Groups</span>
+                        src={Gallery} alt = ''></img>
+                        <span className='text-[14px]'>Gallery</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover'
-                        src={Market} alt = ''></img>
-                        <span>Marketplace</span>
+                        src={Videos} alt = ''></img>
+                        <span className='text-[14px]'>Videos</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img
                         className='w-[30px] h-[30px] rounded-xl object-cover'
-                        src={Watch} alt = ''></img>
-                        <span>Watch</span>
+                        src={Messages} alt = ''></img>
+                        <span className='text-[14px]'>Messages</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover'
-                        src={Memories} alt = ''></img>
-                        <span>Memories</span>
+                        src={Tutorials} alt = ''></img>
+                        <span className='text-[14px]'>Tutorials</span>
                     </div>
                 </div>
+                <hr className='border border-blue-200 my-[12px]'/>
                 <div className="menu flex flex-col gap-[20px]">
-                    <span>Others</span>
+                    <span className='text-[12px]'>Others</span>
                     <div className="user flex items-center gap-[12px]">
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover' 
-                        src={userImg} 
+                        src={Courses} 
                         alt="User image">
                         </img>
-                        <span>Manya Gaur</span>
+                        <span className='text-[14px]'>Courses</span>
                     </div>
                     <div className='item flex items-center gap-[12px]'>
                         <img 
                         className='w-[30px] h-[30px] rounded-xl object-cover'
-                        src={Friends} alt = ''></img>
-                        <span>Friends</span>
-                    </div>
-                    <div className='item flex items-center gap-[12px]'>
-                        <img 
-                        className='w-[30px] h-[30px] rounded-xl object-cover'
-                        src={Groups} alt = ''></img>
-                        <span>Groups</span>
-                    </div>
-                    <div className='item flex items-center gap-[12px]'>
-                        <img 
-                        className='w-[30px] h-[30px] rounded-xl object-cover'
-                        src={Market} alt = ''></img>
-                        <span>Marketplace</span>
-                    </div>
-                    <div className='item flex items-center gap-[12px]'>
-                        <img
-                        className='w-[30px] h-[30px] rounded-xl object-cover'
-                        src={Watch} alt = ''></img>
-                        <span>Watch</span>
-                    </div>
-                    <div className='item flex items-center gap-[12px]'>
-                        <img 
-                        className='w-[30px] h-[30px] rounded-xl object-cover'
-                        src={Memories} alt = ''></img>
-                        <span>Memories</span>
+                        src={Fund} alt = ''></img>
+                        <span className='text-[14px]'>Fundraiser</span>
                     </div>
                 </div>
             </div>

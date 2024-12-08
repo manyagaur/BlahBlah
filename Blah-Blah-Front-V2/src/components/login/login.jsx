@@ -30,7 +30,8 @@ function Login() {
                 backgroundSize: 'cover',
                 transition: 'background-image 0.3s ease-in-out',
               }}
-              >Login</button>
+              >
+                Login</button>
             </div>
           </div>
         </div>
