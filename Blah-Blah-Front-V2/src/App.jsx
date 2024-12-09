@@ -8,6 +8,7 @@ import Rightbar from './components/rightbar/rightbar';
 import Profile from './components/profile/profile';
 import Home from './components/home/home'
 import { createBrowserRouter } from 'react-router-dom';
+import './components/home/home.css'
 
 function App() {
 

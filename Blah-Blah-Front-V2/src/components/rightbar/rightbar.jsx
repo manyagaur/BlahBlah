@@ -85,56 +85,94 @@ function Rightbar(){
                         </div>
                 </div> 
                 <div className="rightbar-box">
-                    <span className='text-gray-400'>Latest Activities</span>
+                    <span className='text-gray-400'>Online Friends</span>
                         <div className="user flex items-center justify-between my-[20px]">
-                            <div className="userInfo flex items-center gap-[20px]">
+                            <div className="userInfo flex items-center gap-[20px] relative">
                                 <img className='w-[40px] h-[40px] rounded-3xl object-cover'
                                 src={dp}></img>
-                                <p className='text-gray-400'>
-                                    <span className='text-black'>Jane Doe</span> changed their cover picture
-                                </p>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
                             </div>
-                            <span className='text-gray-400'>1 min ago</span>
                         </div>
                         <div className="user flex items-center justify-between my-[20px]">
-                            <div className="userInfo flex items-center gap-[20px]">
+                        <div className="userInfo flex items-center gap-[20px] relative">
                                 <img className='w-[40px] h-[40px] rounded-3xl object-cover'
                                 src={dp}></img>
-                                    <p className='text-gray-400'>
-                                        <span className='text-black'>Jane Doe</span> changed their cover picture
-                                    </p>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
                             </div>
-                            <span className='text-gray-400'>1 min ago</span>
                         </div>
                         <div className="user flex items-center justify-between my-[20px]">
-                            <div className="userInfo flex items-center gap-[20px]">
+                        <div className="userInfo flex items-center gap-[20px] relative">
                                 <img className='w-[40px] h-[40px] rounded-3xl object-cover'
                                 src={dp}></img>
-                                    <p className='text-gray-400'>
-                                        <span className='text-black'>Jane Doe</span> changed their cover picture
-                                    </p>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
                             </div>
-                            <span className='text-gray-400'>1 min ago</span>
                         </div>
                         <div className="user flex items-center justify-between my-[20px]">
-                            <div className="userInfo flex items-center gap-[20px]">
+                        <div className="userInfo flex items-center gap-[20px] relative">
                                 <img className='w-[40px] h-[40px] rounded-3xl object-cover'
                                 src={dp}></img>
-                                    <p className='text-gray-400'>
-                                        <span className='text-black'>Jane Doe</span> changed their cover picture
-                                    </p>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
                             </div>
-                            <span className='text-gray-400'>1 min ago</span>
                         </div>
                         <div className="user flex items-center justify-between my-[20px]">
-                            <div className="userInfo flex items-center gap-[20px]">
+                        <div className="userInfo flex items-center gap-[20px] relative">
                                 <img className='w-[40px] h-[40px] rounded-3xl object-cover'
                                 src={dp}></img>
-                                    <p className='text-gray-400'>
-                                        <span className='text-black'>Jane Doe</span> changed their cover picture
-                                    </p>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
                             </div>
-                            <span className='text-gray-400'>1 min ago</span>
+                        </div>
+                        <div className="user flex items-center justify-between my-[20px]">
+                        <div className="userInfo flex items-center gap-[20px] relative">
+                                <img className='w-[40px] h-[40px] rounded-3xl object-cover'
+                                src={dp}></img>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
+                            </div>
+                        </div>
+                        <div className="user flex items-center justify-between my-[20px]">
+                        <div className="userInfo flex items-center gap-[20px] relative">
+                                <img className='w-[40px] h-[40px] rounded-3xl object-cover'
+                                src={dp}></img>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
+                            </div>
+                        </div>
+                        <div className="user flex items-center justify-between my-[20px]">
+                        <div className="userInfo flex items-center gap-[20px] relative">
+                                <img className='w-[40px] h-[40px] rounded-3xl object-cover'
+                                src={dp}></img>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
+                            </div>
+                        </div>
+                        <div className="user flex items-center justify-between my-[20px]">
+                        <div className="userInfo flex items-center gap-[20px] relative">
+                                <img className='w-[40px] h-[40px] rounded-3xl object-cover'
+                                src={dp}></img>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
+                            </div>
+                        </div>
+                        <div className="user flex items-center justify-between my-[20px]">
+                        <div className="userInfo flex items-center gap-[20px] relative">
+                                <img className='w-[40px] h-[40px] rounded-3xl object-cover'
+                                src={dp}></img>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
+                            </div>
+                        </div>
+                        <div className="user flex items-center justify-between my-[20px]">
+                        <div className="userInfo flex items-center gap-[20px] relative">
+                                <img className='w-[40px] h-[40px] rounded-3xl object-cover'
+                                src={dp}></img>
+                                    <div className="online w-[12px] h-[12px] rounded-2xl bg-lime-600 absolute top-0 left-[30px]"></div>
+                                    <span className='text-black'>Jane Doe</span>
+                            </div>
                         </div>
                 </div> 
             </div>
