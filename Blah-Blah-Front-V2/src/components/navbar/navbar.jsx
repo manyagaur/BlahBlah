@@ -1,7 +1,6 @@
 import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import { DarkModeOutlined, EmailOutlined, GridViewOutlined, NotificationsOutlined, PersonOutlineOutlined } from '@mui/icons-material';
-import user from '../../assets/user.jpg'
 import dp from '../../assets/dp.jpg'
 
 
